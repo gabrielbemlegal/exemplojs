@@ -1,5 +1,5 @@
 body {
-    background-color:antiquewhite;
+    background-color:rgb(28, 30, 48);
     width: 100%;
     display: grid;
     align-items: center;
@@ -46,6 +46,7 @@ label {
     box-shadow: 2px 2px 2px gray;
     color: rgb(255, 255, 255);
     margin-left: 20px;
+    border-radius: 3px
 }
 
 p {
@@ -57,8 +58,8 @@ p {
 }
 
 .ola_mundo {
-    background-color: white;
-    box-shadow: 3px 3px 3px grey;
+    background-color: aliceblue;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
     width: 750px;
     height: 130px;
     text-align: center;
@@ -67,8 +68,8 @@ p {
 }
 
 .soma {
-    background-color: white;
-    box-shadow: 3px 3px 3px grey;
+    background-color: aliceblue;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
     width: 750px;
     height: 170px;
     text-align: center;
@@ -78,8 +79,8 @@ p {
 }
 
 .altera_elementos {
-    background-color: white;
-    box-shadow: 3px 3px 3px grey;
+    background-color:aliceblue;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
     width: 750px;
     height: 210px;
     text-align: center;
