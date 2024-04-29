@@ -1,5 +1,5 @@
 function helloWorld() {
-    alert('Olá, Mundo');
+    alert('Olá, Mundo!');
 }
 
 function soma() {
