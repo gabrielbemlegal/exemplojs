@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Exemplos Com JavaScript</title>
+</head>
+
+<body>
+    <div class="ola_mundo">
+        <h1> Mostra "Olá, Mundo!"</h1>
+        <button onclick="helloWorld()"><a href=""> Mostrar 'Olá, Mundo' </a></button>
+    </div>
+
+    <br>
+
+    <div class="soma">
+        <h1> Soma dois números inteiros </h1>
+
+        <label for="valor1"> Valor 1 </label>
+        <input id="valor1" name="valor1" type="int">
+
+        <label for="valor2"> Valor 2 </label>
+        <input id="valor2" name="valor2" type="int">
+
+        <button onclick="soma()"> Calcular </button>
+
+        <br>
+        <br>
+
+        <label for="resultado"> Resultado </label>
+        <input id="resultado" name="resultado" type="int">
+
+    </div>
+
+    <br>
+
+    <div class="altera_elementos">
+        <h1> Altera elementos por ID, Name e Class</h1>
+
+
+        <p id="alteraId"> ID <button onclick="alterarId()"> Alterar elemento por ID </button></p>
+
+
+        <p name="alteraNome"> Nome <button onclick="alterarNome()"> Alterar elemento por Nome </button></p>
+
+
+        <p class="alteraClasse"> Classe <button onclick="alterarClasse()"> Alterar elemento por Classe </button></p>
+    </div>
+
+</body>
+
+</html>

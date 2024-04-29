@@ -1,0 +1,89 @@
+body {
+    background-color:antiquewhite;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(49, 49, 49);
+    margin-left: 20px;
+}
+
+button {
+    text-decoration: none;
+    background-color: rgb(42, 119, 219);
+    border: 2px solid rgb(42, 119, 219);
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 6px;
+    color: white;
+    margin-left: 20px;
+}
+
+button:hover {
+    filter: brightness(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 400px;
+    background-color: rgb(42, 119, 219);
+    border: 2px solid rgb(42, 119, 219);
+    box-shadow: 2px 2px 2px gray;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    color: rgb(49, 49, 49);
+    margin-left: 20px;
+}
+
+.ola_mundo {
+    background-color: white;
+    box-shadow: 3px 3px 3px grey;
+    width: 750px;
+    height: 130px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.soma {
+    background-color: white;
+    box-shadow: 3px 3px 3px grey;
+    width: 750px;
+    height: 170px;
+    text-align: center;
+    margin-left: auto;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.altera_elementos {
+    background-color: white;
+    box-shadow: 3px 3px 3px grey;
+    width: 750px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
